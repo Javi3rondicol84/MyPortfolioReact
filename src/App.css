@@ -4,6 +4,7 @@
     --primary-color-dark: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
+
 .inter-600 {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -32,8 +33,7 @@ body {
 
 .App {
     display: flex;
-    position: relative;
-    min-height: 300vh;
+    height: auto;
 }
 
 

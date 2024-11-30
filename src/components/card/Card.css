@@ -5,11 +5,19 @@
     min-height: 7.2em;
     height: 14em;
     display: flex;
+    cursor: pointer;
+}
+
+.cardContent {
+    display: flex;
+    margin: 1em;
 }
 
 .card:hover {
-    border: 0.2em solid #000;
+    border: 0.08em solid #77859f;
     border-radius: 0.6em;
+    
+    background-color: #2D3446;
 }
 
 .cardImage {
@@ -19,10 +27,13 @@
 }
 
 .imgProject {
-    border: 0.1em solid #000;
+    border: 0.125em solid #77859f;
     border-radius: 0.2em;
-    width: 6.06em;
+    /*width: 6.06em;
     height: 3.57em;
+    */  
+    width: 93px;
+    height: 52px;
     background-color: white;
 }
 

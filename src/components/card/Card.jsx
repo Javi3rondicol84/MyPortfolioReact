@@ -19,23 +19,26 @@ const Card = ( {image, title, description, id, tools} ) => {
     return (
         <>
             <div className='card'>
-               <div className='cardImage'>
-                    <div className='imgProject'>
-                        <img src={image} alt={title}/>
+                <div className='cardContent'>
+                    <div className='cardImage'>
+                        <div className='imgProject'>
+                            <img src={image} alt={title}/>
+                        </div>
                     </div>
-               </div>
-               <div className='cardInfo'>
-                    <h2 className='cardTitle'>{title}</h2>
-                    <p className='cardDescription'>
-                        {description}
-                    </p>
-                    <div className='cardBuilt'>
-                        <h3>Built with: </h3>
-                        <ul>
-                            {listTools}
-                        </ul>
+                    <div className='cardInfo'>
+                        <h2 className='cardTitle'>{title}</h2>
+                        <p className='cardDescription'>
+                            {description}
+                        </p>
+                        <div className='cardBuilt'>
+                            <h3>Built with: </h3>
+                            <ul>
+                                {listTools}
+                            </ul>
+                        </div>
                     </div>
-               </div>
+                </div>
+               
             </div>
         </>
     );
