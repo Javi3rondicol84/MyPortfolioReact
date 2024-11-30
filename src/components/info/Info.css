@@ -1,0 +1,23 @@
+  
+.allInfo {
+    margin-top: 6em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.infoSection {
+    width: 100%;
+    height: 10em;
+}
+
+.infoSection h1 {
+    display: inline-block;
+    width: 100%;
+}
+
+.listCards {
+    list-style: none;
+    width: 30em;
+}
