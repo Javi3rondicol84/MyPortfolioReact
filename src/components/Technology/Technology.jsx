@@ -9,7 +9,7 @@ const Technology = ({nameTech, image, category}) => {
         <div className='techCard'>
             <div className='techCardContent'>
                 <div className='techImgSection'>
-                    <div>
+                    <div className='techImg'>
                         <img src={image} alt={nameTech} />
                     </div>
                 </div>

@@ -17,7 +17,7 @@
     margin-right: 1em;
 }
 
-.techImgSection div {
+.techImgSection .techImg {
     border: 0.125em solid #77859f;
     border-radius: 0.2em;
     width: 93px;

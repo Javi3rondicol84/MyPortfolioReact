@@ -12,6 +12,13 @@ import SqlImg from '../../imgs/technologies/sql.png';
 import PhpImg from '../../imgs/technologies/php.png';
 import MongodbImg from '../../imgs/technologies/mongodb.jpg';
 import DockerImg from '../../imgs/technologies/docker.jpg';
+import DatagripImg from '../../imgs/technologies/datagrip.png';
+import EclipseImg from '../../imgs/technologies/eclipse.png';
+import IntelijImg from '../../imgs/technologies/intelij.png';
+import VisualStudioImg from '../../imgs/technologies/visualstudio.png';
+import NoSQLImg from '../../imgs/technologies/nosql.png';
+import MySQLImg from '../../imgs/technologies/mysql.png';
+import PostgreSQLImg from '../../imgs/technologies/postgresql.png';
 
 const technologiesList = [
     { nameTech: 'Java', image: JavaImg, category: 'Backend' },
@@ -19,19 +26,19 @@ const technologiesList = [
     { nameTech: 'Kotlin', image: KotlinImg, category: 'Backend' },
     { nameTech: 'PHP', image: PhpImg, category: 'Backend' },
     { nameTech: 'SQL', image: SqlImg, category: 'Database' },
-    { nameTech: 'No-SQL', image: MongodbImg, category: 'Database' },
-    { nameTech: 'MySQL', image: MongodbImg, category: 'Database' }, // Cambié a MongodbImg ya que no hay una imagen definida para MySQL
-    { nameTech: 'PostgreSQL', image: MongodbImg, category: 'Database' }, // Lo mismo aquí
+    { nameTech: 'No-SQL', image: NoSQLImg, category: 'Database' },
+    { nameTech: 'MySQL', image:MySQLImg, category: 'Database' }, // Cambié a MongodbImg ya que no hay una imagen definida para MySQL
+    { nameTech: 'PostgreSQL', image: PostgreSQLImg, category: 'Database' }, // Lo mismo aquí
     { nameTech: 'MongoDB', image: MongodbImg, category: 'Database' },
     { nameTech: 'Javascript', image: JavascriptImg, category: 'Frontend' },
     { nameTech: 'React', image: ReactImg, category: 'Frontend' },
     { nameTech: 'CSS', image: CssImg, category: 'Frontend' },
     { nameTech: 'Html', image: HtmlImg, category: 'Frontend' },
     { nameTech: 'Docker', image: DockerImg, category: 'Tools' },
-    { nameTech: 'Datagrip', image: 'path/to/datagrip-image.png', category: 'Tools' },
-    { nameTech: 'Eclipse', image: 'path/to/eclipse-image.png', category: 'Tools' },
-    { nameTech: 'IntelliJ', image: 'path/to/intellij-image.png', category: 'Tools' },
-    { nameTech: 'Visual Studio', image: 'path/to/visualstudio-image.png', category: 'Tools' }
+    { nameTech: 'Datagrip', image: DatagripImg, category: 'Tools' },
+    { nameTech: 'Eclipse', image: EclipseImg, category: 'Tools' },
+    { nameTech: 'IntelliJ', image: IntelijImg, category: 'Tools' },
+    { nameTech: 'Visual Studio', image: VisualStudioImg, category: 'Tools' }
 ];
 
   

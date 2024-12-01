@@ -1,8 +1,9 @@
 import React from 'react';
 import './Card.css';
 import Tool from '../tool/Tool';
+import githubLogo from '../../imgs/github.png';
 
-const Card = ( {image, title, description, id, tools} ) => {
+const Card = ( {image, title, description, id, tools, url} ) => {
    
     const listTools = tools.map(tool => {
         return (
@@ -23,6 +24,11 @@ const Card = ( {image, title, description, id, tools} ) => {
                     <div className='cardImage'>
                         <div className='imgProject'>
                             <img src={image} alt={title}/>
+                        </div>
+                        <div className='githubLogo'>
+                            <a href={url} target='_blank'>
+                                <img src={githubLogo} alt='github logo' />
+                            </a>    
                         </div>
                     </div>
                     <div className='cardInfo'>
