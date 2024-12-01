@@ -7,6 +7,21 @@ aside {
     justify-content: center;
     height: 100vh;
 }
+
+header a {
+    text-decoration: none;
+}
+
+header a:hover {
+    box-shadow: 0 0 15px 5px rgba(52, 152, 219, 0.7);
+    background-color: rgba(52, 152, 219, 0.7);
+    border: 0.1em solid rgba(52, 152, 219, 0.7);
+    border-radius: 0.3em;
+}
+
+header ul li {
+    border: 0;
+}
  
 header {
     margin-top: 6em;
@@ -49,6 +64,8 @@ header nav ul {
     width: 100%;
     color: rgb(206, 17, 17);
 }
+
+
 
     
 @media only screen and (max-width: 600px) {

@@ -13,9 +13,9 @@ const Header = () => {
                 </section>
                 <nav>
                     <ul>
-                        <li>Projects</li>
-                        <li>All Skills</li>
-                        <li>About me</li>
+                        <li><a href='#App'>Projects</a></li>
+                        <li><a href='#infoTools'>Technologies</a></li>
+                        <li><a href='#infoAboutMe'>About me</a></li>
                     </ul>
                 </nav>
             </header>

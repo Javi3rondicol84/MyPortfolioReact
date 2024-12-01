@@ -5,7 +5,7 @@ import Info from './components/info/Info';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id='App'>
       <Header />
       <Info />
     </div>

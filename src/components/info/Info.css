@@ -3,15 +3,16 @@
     margin-top: 6em;
     width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 
-.infoSection {
+.infoProjects {
     width: 100%;
 }
 
-.infoSection h1 {
+.infoProjects h1 {
     display: inline-block;
     width: 100%;
 }
@@ -19,4 +20,18 @@
 .listCards {
     list-style: none;
     width: 30em;
+}
+
+.infoTools {
+    margin-top: 2em;
+    width: 30em;
+    display: flex;
+    background-color: green;
+    height: 20em;
+}
+
+.infoAboutMe {
+    width: 30em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
