@@ -1,6 +1,7 @@
 import React from 'react';
 import './Info.css';
 import Cards from '../cards/Cards';
+import Technologies from '../technologies/Technologies';
 
 const Info = () => {
     return (
@@ -10,7 +11,7 @@ const Info = () => {
                 <Cards />
             </div>
             <div className='infoTools' id='infoTools'>
-                <p>ssssssss</p>
+                <Technologies />
             </div>
             <div className='infoAboutMe' id='infoAboutMe'>
                 <p>
