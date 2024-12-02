@@ -20,25 +20,25 @@ import NoSQLImg from '../../imgs/technologies/nosql.png';
 import MySQLImg from '../../imgs/technologies/mysql.png';
 import PostgreSQLImg from '../../imgs/technologies/postgresql.png';
 
-const technologiesList = [
-    { nameTech: 'Java', image: JavaImg, category: 'Backend' },
-    { nameTech: 'Springboot', image: SpringbootImg, category: 'Backend' },
-    { nameTech: 'Kotlin', image: KotlinImg, category: 'Backend' },
-    { nameTech: 'PHP', image: PhpImg, category: 'Backend' },
-    { nameTech: 'SQL', image: SqlImg, category: 'Database' },
-    { nameTech: 'No-SQL', image: NoSQLImg, category: 'Database' },
-    { nameTech: 'MySQL', image:MySQLImg, category: 'Database' }, // Cambié a MongodbImg ya que no hay una imagen definida para MySQL
-    { nameTech: 'PostgreSQL', image: PostgreSQLImg, category: 'Database' }, // Lo mismo aquí
-    { nameTech: 'MongoDB', image: MongodbImg, category: 'Database' },
-    { nameTech: 'Javascript', image: JavascriptImg, category: 'Frontend' },
-    { nameTech: 'React', image: ReactImg, category: 'Frontend' },
-    { nameTech: 'CSS', image: CssImg, category: 'Frontend' },
-    { nameTech: 'Html', image: HtmlImg, category: 'Frontend' },
-    { nameTech: 'Docker', image: DockerImg, category: 'Tools' },
-    { nameTech: 'Datagrip', image: DatagripImg, category: 'Tools' },
-    { nameTech: 'Eclipse', image: EclipseImg, category: 'Tools' },
-    { nameTech: 'IntelliJ', image: IntelijImg, category: 'Tools' },
-    { nameTech: 'Visual Studio', image: VisualStudioImg, category: 'Tools' }
+export const technologiesList = [
+    { id: 1, nameTech: 'Java', image: JavaImg, category: 'Backend' },
+    { id: 2, nameTech: 'Springboot', image: SpringbootImg, category: 'Backend' },
+    { id: 3, nameTech: 'Kotlin', image: KotlinImg, category: 'Backend' },
+    { id: 4, nameTech: 'PHP', image: PhpImg, category: 'Backend' },
+    { id: 5, nameTech: 'SQL', image: SqlImg, category: 'Database' },
+    { id: 6, nameTech: 'No-SQL', image: NoSQLImg, category: 'Database' },
+    { id: 7, nameTech: 'MySQL', image: MySQLImg, category: 'Database' },
+    { id: 8, nameTech: 'PostgreSQL', image: PostgreSQLImg, category: 'Database' },
+    { id: 9, nameTech: 'MongoDB', image: MongodbImg, category: 'Database' },
+    { id: 10, nameTech: 'Javascript', image: JavascriptImg, category: 'Frontend' },
+    { id: 11, nameTech: 'React', image: ReactImg, category: 'Frontend' },
+    { id: 12, nameTech: 'CSS', image: CssImg, category: 'Frontend' },
+    { id: 13, nameTech: 'Html', image: HtmlImg, category: 'Frontend' },
+    { id: 14, nameTech: 'Docker', image: DockerImg, category: 'Tools' },
+    { id: 15, nameTech: 'Datagrip', image: DatagripImg, category: 'Tools' },
+    { id: 16, nameTech: 'Eclipse', image: EclipseImg, category: 'Tools' },
+    { id: 17, nameTech: 'IntelliJ', image: IntelijImg, category: 'Tools' },
+    { id: 18, nameTech: 'Visual Studio', image: VisualStudioImg, category: 'Tools' }
 ];
 
   
@@ -47,9 +47,7 @@ const allTech = technologiesList.map(tech => {
         <>
         <li>
             <Technology 
-            nameTech = {tech.nameTech}
-            image = {tech.image}
-            category = {tech.category}
+                tech={tech}
             /> 
         </li>
         </>

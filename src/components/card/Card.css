@@ -80,6 +80,11 @@
 
 }
 
+.cardLinks {
+    width: 93px;
+    display: flex;
+}
+
 .githubLogo {
     display: flex;
     justify-content: center;
