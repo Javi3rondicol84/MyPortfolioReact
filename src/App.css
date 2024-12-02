@@ -2,8 +2,12 @@
     --primary-color: rgba(59, 130, 246, .5);
     --tw-bg-opacity: 1;
     --primary-color-dark: rgb(15 23 42 / var(--tw-bg-opacity));
+    --primary-color-light: rgb(63, 139, 216);
 }
 
+.lightModeBody {
+    background-color: var(--primary-color-light);
+}
 
 .inter-600 {
     font-family: "Inter", sans-serif;

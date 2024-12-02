@@ -26,7 +26,7 @@ const Card = ( {image, title, description, id, tools, url} ) => {
                             <img src={image} alt={title}/>
                         </div>
                         <div className='githubLogo'>
-                            <a href={url} target='_blank'>
+                            <a href={url} target='_blank' rel="noopener noreferrer">
                                 <img src={githubLogo} alt='github logo' />
                             </a>    
                         </div>
