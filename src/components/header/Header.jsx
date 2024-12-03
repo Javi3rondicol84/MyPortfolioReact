@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import './Header.css';
-import githubLogo from '../../imgs/github.png';
+import githubLogo from '../../imgs/githublg.png';
 import linkedinLogo from '../../imgs/linkedin.png';
 import lightbulb from '../../imgs/lightbulb.png';
 import language from '../../imgs/language-icon.png';

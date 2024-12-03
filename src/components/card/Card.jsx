@@ -1,7 +1,7 @@
 import React from 'react';
 import './Card.css';
 import Tool from '../tool/Tool';
-import githubLogo from '../../imgs/github.png';
+import githubLogo from '../../imgs/githublg.png';
 import rightArrow from '../../imgs/right-arrow.png';
 import {useNavigate} from 'react-router-dom';
 
@@ -33,11 +33,11 @@ const Card = ( {card} ) => {
                                     <img src={githubLogo} alt='github logo' />
                                 </a>    
                             </div>
-                            <div className='githubLogo'>
+                            {/* <div className='githubLogo'>
                                 <a href='#' target='_blank' rel="noopener noreferrer">
                                     <img src={rightArrow} alt='github logo' />
                                 </a>    
-                            </div>
+                            </div> */}
                         </div>
              
                     </div>
