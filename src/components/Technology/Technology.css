@@ -117,3 +117,25 @@
     height: 80%;
     object-fit: fill;
 }
+
+@media (max-width: 500px) {
+    .techCard {
+        width: 100%;
+    }
+
+    
+.techCategory {
+    justify-content: center;
+    height: 1.5em;
+}
+
+.techCategory h3 {
+    margin-right: 1em;
+    font-size: 1em;
+}
+
+.techCategory span {
+    font-size: 1em;
+}
+    
+}

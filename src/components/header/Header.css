@@ -1,11 +1,11 @@
 
 aside {
     width: 50%;
-    top: 0;
+    top: 0em;
+    height: 20em;
     position: sticky;
     display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
 header a {
@@ -111,16 +111,42 @@ header nav ul {
 }
 
     
-@media only screen and (max-width: 600px) {
-    header {
-        width: 80%;
+@media (max-width: 500px) {
+    aside {
+        width: 100%;
+        height: auto;
+        background-color: var(--primary-color-dark);
+        z-index: 10;
     }
 
-    
-    aside {
-        /*position: relative;
-        */
+    header {
         width: 100%;
-        margin: 0;
+        margin-top: 0em;
+        height: auto;
+
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 2em;
+        justify-content: space-evenly;
+        list-style: none;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    header nav ul li {
+        margin-right: 0em;
+    }
+
+    .titles {
+        text-align: center;
+        display: none;
+    }
+
+    .linksAndButtons {
+        display: none;
     }
 }
