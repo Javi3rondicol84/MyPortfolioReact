@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/MyPortfolioReact/static/css/main.3c551bdc.css",
+    "main.js": "/MyPortfolioReact/static/js/main.86eb490f.js",
+    "static/js/453.acca0757.chunk.js": "/MyPortfolioReact/static/js/453.acca0757.chunk.js",
+    "static/media/reviewsApi.png": "/MyPortfolioReact/static/media/reviewsApi.6a7d44d94944db2b0625.png",
+    "static/media/spider-man.png": "/MyPortfolioReact/static/media/spider-man.828b409ba62dc6dc353f.png",
+    "static/media/4-en-linea.png": "/MyPortfolioReact/static/media/4-en-linea.24caa6f7bba15d6d2328.png",
+    "static/media/TMDB.png": "/MyPortfolioReact/static/media/TMDB.adecaf1731f39406fa43.png",
+    "static/media/data-structure.png": "/MyPortfolioReact/static/media/data-structure.e8f48c90a901faa1ab8c.png",
+    "static/media/ChatApp.png": "/MyPortfolioReact/static/media/ChatApp.a72b1b73c0e69bf137b3.png",
+    "static/media/android-studio.png": "/MyPortfolioReact/static/media/android-studio.3386e57386595aa147da.png",
+    "static/media/nextjs.jpg": "/MyPortfolioReact/static/media/nextjs.89970672f5f814d7dafc.jpg",
+    "static/media/php.png": "/MyPortfolioReact/static/media/php.cf6685b0c84e402df87e.png",
+    "static/media/jwt.png": "/MyPortfolioReact/static/media/jwt.b3204666293aa36bf17f.png",
+    "static/media/expressjs.png": "/MyPortfolioReact/static/media/expressjs.d34017439d19b2ddd757.png",
+    "static/media/microservices.png": "/MyPortfolioReact/static/media/microservices.1e9b9885cdfa749264d8.png",
+    "static/media/datagrip.png": "/MyPortfolioReact/static/media/datagrip.0bb245d7b2827ec472dc.png",
+    "static/media/language-icon.png": "/MyPortfolioReact/static/media/language-icon.86dd7a22665d25c1e46e.png",
+    "static/media/e-commerce.png": "/MyPortfolioReact/static/media/e-commerce.534a6bbb9e531a8dd512.png",
+    "static/media/mysql.png": "/MyPortfolioReact/static/media/mysql.6e42b2a035b28f240021.png",
+    "static/media/java.png": "/MyPortfolioReact/static/media/java.f4ea765878d6e68edefd.png",
+    "static/media/swagger.png": "/MyPortfolioReact/static/media/swagger.2dd200ef7b9affdbfda0.png",
+    "static/media/search.png": "/MyPortfolioReact/static/media/search.a939c9c3ab8cb25c1860.png",
+    "static/media/nodejs.png": "/MyPortfolioReact/static/media/nodejs.bc74d7efa518349141c4.png",
+    "static/media/lightbulb.png": "/MyPortfolioReact/static/media/lightbulb.2cf9b6c2cc5d04f39126.png",
+    "static/media/TESTNG.png": "/MyPortfolioReact/static/media/TESTNG.f24d1dc95cde1c769e03.png",
+    "static/media/html.png": "/MyPortfolioReact/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css.png": "/MyPortfolioReact/static/media/css.463e319bad8e0edf1ef7.png",
+    "static/media/postgresql.png": "/MyPortfolioReact/static/media/postgresql.f23fbdf01381dedb4dc8.png",
+    "static/media/js.png": "/MyPortfolioReact/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/tailwindcss.jpg": "/MyPortfolioReact/static/media/tailwindcss.f4f0b3428960e266e10c.jpg",
+    "index.html": "/MyPortfolioReact/index.html",
+    "main.3c551bdc.css.map": "/MyPortfolioReact/static/css/main.3c551bdc.css.map",
+    "main.86eb490f.js.map": "/MyPortfolioReact/static/js/main.86eb490f.js.map",
+    "453.acca0757.chunk.js.map": "/MyPortfolioReact/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c551bdc.css",
+    "static/js/main.86eb490f.js"
+  ]
+}
