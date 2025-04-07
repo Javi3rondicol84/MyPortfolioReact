@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
       <>
-        <Router>
+        <Router basename="/MyPortfolioReact"> 
           <Routes>
             <Route path='/' element={<MainSection />}></Route>
             <Route path='/projects-technology/:id' element={<TechProjects />}></Route>
