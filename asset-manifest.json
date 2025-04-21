@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolioReact/static/css/main.3c551bdc.css",
-    "main.js": "/MyPortfolioReact/static/js/main.04ae97dd.js",
+    "main.css": "/MyPortfolioReact/static/css/main.1436e6d9.css",
+    "main.js": "/MyPortfolioReact/static/js/main.c3091eca.js",
     "static/js/453.83234151.chunk.js": "/MyPortfolioReact/static/js/453.83234151.chunk.js",
     "static/media/reviewsApi.png": "/MyPortfolioReact/static/media/reviewsApi.6a7d44d94944db2b0625.png",
     "static/media/spider-man.png": "/MyPortfolioReact/static/media/spider-man.828b409ba62dc6dc353f.png",
@@ -29,14 +29,15 @@
     "static/media/css.png": "/MyPortfolioReact/static/media/css.463e319bad8e0edf1ef7.png",
     "static/media/postgresql.png": "/MyPortfolioReact/static/media/postgresql.f23fbdf01381dedb4dc8.png",
     "static/media/js.png": "/MyPortfolioReact/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/githublg.png": "/MyPortfolioReact/static/media/githublg.6cae2ac4761af929cfcb.png",
     "static/media/tailwindcss.jpg": "/MyPortfolioReact/static/media/tailwindcss.f4f0b3428960e266e10c.jpg",
     "index.html": "/MyPortfolioReact/index.html",
-    "main.3c551bdc.css.map": "/MyPortfolioReact/static/css/main.3c551bdc.css.map",
-    "main.04ae97dd.js.map": "/MyPortfolioReact/static/js/main.04ae97dd.js.map",
+    "main.1436e6d9.css.map": "/MyPortfolioReact/static/css/main.1436e6d9.css.map",
+    "main.c3091eca.js.map": "/MyPortfolioReact/static/js/main.c3091eca.js.map",
     "453.83234151.chunk.js.map": "/MyPortfolioReact/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c551bdc.css",
-    "static/js/main.04ae97dd.js"
+    "static/css/main.1436e6d9.css",
+    "static/js/main.c3091eca.js"
   ]
 }
