@@ -1,5 +1,5 @@
 .card {
-    width: 30em;
+    width: 100%;
     display: flex;
     margin-bottom: 1em;
 }
@@ -7,6 +7,7 @@
 .cardContent {
     display: flex;
     margin: 1em;
+    justify-content: space-evenly;
 }
 
 .card:hover {
@@ -22,6 +23,7 @@
 .cardImage {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-right: 1em;
     width: 118px;
     height: 100%;

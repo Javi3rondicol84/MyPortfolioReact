@@ -29,11 +29,11 @@ const Header = () => {
                     <h2 className='backendTitle'>Back End Developer</h2>
                 </section>
                 <nav>
-                    <ul>
+                    {/* <ul>
                         <li><a href='#App'>Projects</a></li>
                         <li><a href='#infoTools'>Technologies</a></li>
-                        <li><a href='#infoAboutMe'>About me</a></li>
-                    </ul>
+                        <li><a href='#infoAboutMe'>About me</a></li> 
+                    </ul> */}
                 </nav>
                 <section className='linksAndButtons'>
                     <div className='mainGithubLogo'>

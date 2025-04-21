@@ -21,7 +21,7 @@
 
 .listCards {
     list-style: none;
-    width: 30em;
+    width: 100%;
 }
 
 .infoTools {
@@ -42,7 +42,7 @@
 .titlesContent {
     display: flex;
     justify-content: center;
-    width: 30em;
+    width: 100%;
     margin-bottom: 1em;
 }
 
